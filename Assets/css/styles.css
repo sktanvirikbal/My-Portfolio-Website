@@ -299,6 +299,8 @@ nav ul li{
 .socicon{ 
       width: 2rem;
       height: 2rem;
+      border-radius: 50%;
+      border: 3px solid var(--primary-color);
 }
 
 /* Social icon designing ends here  */
