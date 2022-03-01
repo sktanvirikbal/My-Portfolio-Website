@@ -107,11 +107,11 @@ nav ul li{
  }
 
  .hero img{
-     height: 30.5rem;
-     width: 30.5rem;
+     height: 25.5rem;
+     width: 25.5rem;
      border: 1px solid black;
      border-radius: 4px;
-     margin-top: 40px;
+     /* margin-top: 40px; */
 
 
 
@@ -297,10 +297,10 @@ nav ul li{
     bottom: 50%;
 }
 .socicon{ 
-      width: 2rem;
-      height: 2rem;
-      border-radius: 50%;
-      border: 3px solid var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
 }
 
 /* Social icon designing ends here  */
@@ -310,4 +310,80 @@ footer{
     padding: 1.25rem;
     text-align: center;
     margin: 2rem 0 0;
+}
+
+/* footer styling ends  */
+
+.scroll-up{
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+.up-arrow{
+  width: 2rem;
+  height: 2rem;
+}
+
+/* scroll button styling ends  */
+
+nav{
+    padding: 1.5rem 1rem;
+
+}
+nav ul{
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+}
+
+nav ul li{
+    margin: 8px;
+}
+
+.burger-menu{
+    display: block;
+}
+nav ul.show{
+    transform: translateX(0);
+}
+
+/* Making the heri section responsive  */
+ .hero{
+    margin-top: -4rem;
+    
+    flex-direction: column;
+    gap: 0;
+}
+.hero img{
+    /* height: 37.5rem;
+    width: 30rem; */
+    margin-top: 6rem;
+    border-radius: 50%;
+  
+
+}
+.bio{
+    margin-top: 2rem;
+    width: 30.5rem;
+} 
+
+/* Making more about me section responsive  */
+
+.more-about{
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
+}
+
+.more-about h2{
+    text-align: center;
+}
+.more-about p{
+    text-align: justify;
 }
