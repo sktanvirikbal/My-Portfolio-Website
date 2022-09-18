@@ -435,8 +435,8 @@ footer {
     /* Making Skills section responsive  */
 
     .icon {
-        width: 2rem;
-        height: 2rem;
+        width: 4rem;
+        height: 4rem;
     }
 
     /* Making the projects section responsive  */
@@ -467,10 +467,7 @@ footer {
         width: 18.3rem;
     }
 
-    .icon {
-        width: 4rem;
-        height: 4rem;
-    }
+
 
     .project-container {
         width: 17.875rem;
