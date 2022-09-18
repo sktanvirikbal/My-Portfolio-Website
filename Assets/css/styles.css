@@ -184,7 +184,7 @@ nav ul li {
 }
 
 .icon {
-    width: 5.875;
+    width: 5.875rem;
     height: 5.25rem;
 }
 
@@ -367,12 +367,13 @@ footer {
 
     nav {
         padding: 1.5rem 1rem;
+        background-color: rgb(29, 25, 25);
 
     }
 
     nav ul {
         position: fixed;
-        background-color: var(--bg-color);
+        /* background-color: var(--bg-color); */
         flex-direction: column;
         top: 86px;
         left: 10%;
@@ -434,8 +435,8 @@ footer {
     /* Making Skills section responsive  */
 
     .icon {
-        width: 4rem;
-        height: 4rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     /* Making the projects section responsive  */
